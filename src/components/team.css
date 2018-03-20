@@ -1,0 +1,23 @@
+.teamcontainer{
+  margin: auto;
+  padding: 0 16px;
+}
+.teammember{
+  position: relative;
+  margin: 1% 2%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.teamimg {
+  overflow: hidden;
+  width: 100%;
+}
+
+.teamtitle {
+  margin: 2% 40% 3%;
+}
+.teamjob{
+  /* margin: 2% 32% 1%; */
+  margin: 2% 43% 1%
+}
