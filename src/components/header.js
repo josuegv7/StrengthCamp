@@ -9,11 +9,11 @@ class Header extends Component {
                     {/* <h1 className={headerstyle.name}> STRENGTH CAMP </h1> */}
                     <nav>
                         <ul>
-                            <li><a>Home</a></li>
-                            <li><a>Blog</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/blog">Blog</a></li>
                             <li>STRENGTH CAMP</li>
-                            <li><a>Membership</a></li>
                             <li><a>Training</a></li>
+                            <li><a>Find a Strength Camp</a></li>
                         </ul>
                     </nav>
             </div>

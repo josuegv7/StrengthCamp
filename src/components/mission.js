@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import style from './mission.css';
+import YT from '../images/yt.png';
+import FB from '../images/fb.png';
+import IS from '../images/inst.png';
+import TW from '../images/tw.png';
 import { Row, Col } from 'react-flexbox-grid';
 
 
@@ -23,8 +27,9 @@ export default class Mission extends Component {
             </p>
             <h3 className={style.missionheaders}>Follow Us</h3>
             <ul className="icons">
-              <li><a href="#" className="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" className="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="https://www.youtube.com/user/strengthcamp"><img className={style.footerimg} src={YT} alt="NO"/></a></li>
+              <li><a href="https://www.facebook.com/thestrengthcamp/"><img className={style.FB} src={FB} alt="NO"/></a></li>
+              <li><a href="https://www.instagram.com/thestrengthcamp/?hl=en"><img className={style.footerimg} src={IS} alt="NO"/></a></li>
             </ul>
           </Col>
 
@@ -32,20 +37,20 @@ export default class Mission extends Component {
           <Col md={6} className={style.column}>
             <h3 className={style.missionheaders}>Get in Touch</h3>
             <form action="#" method="post">
-              <div className="field half first">
-                <label for="name">Name</label>
-                <input name="name" id="name" type="text" placeholder="Name"/>
+              <div className={style.fieldhalffirst}>
+                <label>Name</label>
+                <input type="text" placeholder="Name"/>
               </div>
-              <div className="field half">
-                <label for="email">Email</label>
-                <input name="email" id="email" type="email" placeholder="Email"/>
+              <div className={style.fieldhalf}>
+                <label>Email</label>
+                <input type="email" placeholder="Email"/>
               </div>
               <div className={style.messagemission}>
-                <label for="message">Message</label>
+                <label>Message</label>
                 <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
               </div>
               <ul className="actions">
-                <li><input value="Send Message" class="button" type="submit"/></li>
+                <li><input value="Send Message" className="button" type="submit"/></li>
               </ul>
             </form>
           </Col>
