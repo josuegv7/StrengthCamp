@@ -10,10 +10,10 @@ class Header extends Component {
                     <nav>
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="http://strengthcamp.com/home/?page_id=74">Blog</a></li>
                             <li>STRENGTH CAMP</li>
-                            <li><a>Training</a></li>
-                            <li><a>Find a Strength Camp</a></li>
+                            <li><a href="http://strengthcamp.com/home/?page_id=67">Training</a></li>
+                            <li><a href="http://strengthcamp.com/home/?page_id=988">Find a Strength Camp</a></li>
                         </ul>
                     </nav>
             </div>

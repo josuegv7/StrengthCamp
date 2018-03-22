@@ -36,23 +36,20 @@ export default class Mission extends Component {
 
           <Col md={6} className={style.column}>
             <h3 className={style.missionheaders}>Get in Touch</h3>
-            <form action="#" method="post">
-              <div className={style.fieldhalffirst}>
+            <div className={style.contactcontainer}>
+              <form action="post">
                 <label>Name</label>
-                <input type="text" placeholder="Name"/>
-              </div>
-              <div className={style.fieldhalf}>
-                <label>Email</label>
-                <input type="email" placeholder="Email"/>
-              </div>
-              <div className={style.messagemission}>
+                <input type="text" id="name" name="name" placeholder="Your name.."/>
+
+                <label>Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+
                 <label>Message</label>
-                <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                <input type="submit" value="Submit"/>
+                </form>
               </div>
-              <ul className="actions">
-                <li><input value="Send Message" className="button" type="submit"/></li>
-              </ul>
-            </form>
+
           </Col>
       </Row>
     );

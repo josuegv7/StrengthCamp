@@ -12,8 +12,8 @@ class App extends Component {
         <Header/>
         <Main/>
         <Piller/>
-        <Mission/>
         <Team/>
+        <Mission/>
         <Footer/>
       </div>
     );

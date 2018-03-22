@@ -7,12 +7,10 @@ import FooterLogo from '../images/sclogoFooter.png';
 import { Row, Col } from 'react-flexbox-grid';
 
 
-
-
-
 class Footer extends Component {
     render() {
         return(
+
             <Row className={style.sitefooter}>
               <Col>
                 <img className={style.footerimg} src={FooterLogo}/>

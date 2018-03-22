@@ -1,6 +1,6 @@
 
 .sitefooter {
-
+  height: 7rem;
 	background-color: #2A2A2A;
 	left: 0;
 	right: 0;
@@ -9,7 +9,7 @@
 }
 
 .footerimg{
-	height: 45%;
-	margin-left: 7%;
+	height: 80%;
+	margin-left: 20%;
 	margin-top: 10%;
 };

@@ -4,6 +4,7 @@ body.is-loading .banner > .inner {
   -webkit-transform: translateY(1em);
   -ms-transform: translateY(1em);
   transform: translateY(1em);
+  font-family: Oswald, sans-serif;
 }
 .rocky{
   width: 70%;
